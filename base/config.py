@@ -1,11 +1,11 @@
 """
-config2 - 配置类（更好的版本）
+Author  :Alex Aug
+Date    :2026/10/17 20:01
+describe:说明：推荐使用 Pydantic Settings 彻底替代 configparser。它提供自动类型校验、环境变量自动映射及默认值约束。
 
-说明：推荐使用 Pydantic Settings 彻底替代 configparser。它提供自动类型校验、环境变量自动映射及默认值约束。
-
-Author: 骆昊
 Version: 0.0.1
 """
+
 import logging
 from pathlib import Path
 
